@@ -1,0 +1,17 @@
+.startButton {
+  border: none;
+  background-color: #0285d1;
+  font-size: 32px;
+  width: 164px;
+  height: 74px;
+  color: white;
+  font-family: "Bungee", cursive;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.started {
+  background-color: white;
+  cursor: default;
+}

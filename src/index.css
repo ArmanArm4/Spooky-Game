@@ -1,13 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 32px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  max-width: 1914px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: auto;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  z-index: 1;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* padding-block: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.btn {
+  border: none;
+  background-color: #0285d1;
+  font-size: 32px;
+  width: 164px;
+  height: 74px;
+  color: white;
+  font-family: "Bungee", cursive;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finish {
+  width: 74px;
+  height: 180px;
+}
+.btn p {
+  transform: rotate(-90deg);
 }
